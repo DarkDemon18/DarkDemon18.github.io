@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'amongus';
+	src: url(../fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf);
+}
+@font-face {
+	font-family:'home' ;
+	src: url(../fonts/Titan_One/TitanOne-Regular.ttf);
+}
+body {
+	background-color: skyblue;
+  }
+#nav-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color:skyblue;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	height: 50px;
+
+}
+.text-white{
+	color: white;
+	text-decoration: none;
+	font-family: 'amongus';
+}
+.text-lightcyan{
+	color: lightcyan;
+	text-decoration: none;
+	font-family: 'home';
+}
+#nav-links{
+	display: flex;
+	align-items: center;
+}
+.image-log{
+	border-radius: 10px;
+}
+.nav-search{
+	font-family: 'home';
+	
+	border-radius: 5px;
+}
+.nav-form{
+	display: flex;
+
+}
+
+.nav-s {
+	padding: 4px 5px 4px 5px;
+
+	border-radius: 3px;
+	border: 0px;
+
+}
+.nav-search{
+	background-color:lightcyan ;
+	border: 0px;
+	
+	padding: 4px;
+	font-family: 'amongus';
+}	
+.nav-s{
+	font-family: 'amongus';
+}
+
+
+.nav-search:hover{
+	background-color: lightskyblue;
+}
+.footer-icon{
+	text-decoration: none;
+	color: rgb(250, 135, 215);
+}
+#footer{
+	margin: 25px 8vw 0 8vw;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-text{
+	color: white;
+}
+.line{
+	margin: 10px 8vw 0 8vw;
+}
+@media only screen and (max-width:400px) {
+	#nav-flex{
+		margin: unset;
+	}
+
+}
+@media only screen and (max-width: 820px) {
+	#nav-flex{
+		justify-content: center;
+		flex-direction: column;
+		height: 80px;
+	}
+	#nav-links{
+		width: 300px;
+	}
+
+}
+.ABOUT{
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	height: 800px;
+}
